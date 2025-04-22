@@ -1,11 +1,29 @@
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(49, 54, 59);
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    margin-top: 20px;
 }
+
+
+.card-hover:hover .card-mask {
+    opacity: 0;
+  }
