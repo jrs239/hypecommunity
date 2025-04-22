@@ -21,9 +21,11 @@
     padding: 10px;
     font-size: 0.8rem;
     margin-top: 20px;
+    z-index: 10;
 }
 
 
 .card-hover:hover .card-mask {
     opacity: 0;
+    z-index: 1;
   }
