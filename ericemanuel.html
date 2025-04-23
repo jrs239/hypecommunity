@@ -44,10 +44,23 @@
   </nav>
 
   <!-- Brand Page Hero -->
-  <section class="container-fluid py-5" style="background-color: #101A26; margin-top: 70px;">
-    <div class="container px-4 py-5" style="background-color: #2C2F33; border-radius: 12px;">
-      <div class="text-white text-center">
-        <h1 class="mb-3">Eric Emanuel</h1>
+  <section class="container-fluid py-5" style="background-color: #101A26; margin-top: 50px;">
+    <div class="container px-4 py-5 shadow position-relative" style="
+      background-image: url('eric/eric-background.jpg'); 
+      background-position: bottom;
+      background-size: cover;
+      border-radius: 12px;
+      overflow: hidden;
+    ">
+      <!-- Mask Overlay -->
+      <div class="position-absolute top-0 start-0 w-100 h-100" style="
+        background-color: rgba(0, 0, 0, 0.65);
+        z-index: 1;
+      "></div>
+  
+      <!-- Text Content -->
+      <div class="text-white text-center position-relative" style="z-index: 2;">
+        <h1 class="mb-3" style="font-style: italic;">Eric Emanuel</h1>
         <h3 class="lead">Releasing this week</h3>
         <p class="lead">Release time: Friday 12:00 PM EST</p>
       </div>
